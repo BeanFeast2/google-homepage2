@@ -1,6 +1,6 @@
 html{
-  display: block;
   display: content-box;
+  overflow: hidden;
 }
 
 body{
@@ -22,6 +22,7 @@ a{
 }
 
 nav{
+  overflow: hidden;
   height:40px;
   line-height: 40px;
   padding-top: 12px
@@ -29,7 +30,7 @@ nav{
 
 .mid-section{
   text-align: center;
-  margin: 40px auto;
+  margin: 150px auto;
 }
 
 .search-bar{
@@ -41,19 +42,68 @@ nav{
   margin-top: 30px;
 }
 
+.nav-word{
+  padding-left: 5px;
+  padding-right: 7px;
+}
+
+#word-one{
+  padding-left: 35px;
+}
+
+#word-four,
+#word-three,
 #f-link-right{
   float: right;
 }
 
-#icon{
+#google-propic{
+  background-image: url(https://lh3.googleusercontent.com/-FUh_03iY0XA/AAAAAAAAAAI/AAAAAAAAAAA/AIcfdXAf7LL6ZXKrkbtZVJEcY7SvXDML3g/s32-c-mo/photo.jpg);
+  background-size: 32px 32px;
+  border-radius: 50%;
+  margin: -1px;
+  overflow: hidden;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  z-index: 0;
+  margin-left: 25px;
+  float: right;
+  margin-right: 25px;
+}
+
+#google-apps-icon{
   background-image: url("pics/google-icons.png");
-  background-size: 528px 68px;
+  height: 30px; width: 30px;
+  background-position: -132px -38px;
+  opacity: .55;
+  margin-left: 25px;
+  float: right;
+  opacity: 0.55;
+}
+
+#bell-icon{
+  box-sizing: border-box;
+  background-image: url("pics/google-icons.png");
+  height: 20px; width: 20px;
   background-position: -194px -21px;
+  background-color: rgba(0,0,0,.55);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  margin: 5px;
+  padding: 0 2px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 25px;
+  float: right;
+  opacity: 0.85;
 }
 
 nav li {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
 }
 
 footer li{
@@ -106,4 +156,11 @@ footer li{
 
 footer li:hover{
   text-decoration: underline;
+}
+
+.nav-word:hover{
+  text-decoration: underline;
+}
+
+.icon:hover{
 }
