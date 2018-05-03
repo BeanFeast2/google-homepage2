@@ -1,0 +1,109 @@
+html{
+  display: block;
+  display: content-box;
+}
+
+body{
+  font-family: arial,sans-serif;
+  box-sizing: content-box;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  height: 45px; width: 100%;
+  background-color: #f2f2f2;
+  line-height: 45px;
+}
+
+a{
+  color: #666;
+  font-size: small;
+  text-decoration: none;
+}
+
+nav{
+  height:40px;
+  line-height: 40px;
+  padding-top: 12px
+}
+
+.mid-section{
+  text-align: center;
+  margin: 40px auto;
+}
+
+.search-bar{
+  display: inline;
+}
+
+.bottons{
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+#f-link-right{
+  float: right;
+}
+
+#icon{
+  background-image: url("pics/google-icons.png");
+  background-size: 528px 68px;
+  background-position: -194px -21px;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+footer li{
+  list-style-type: none;
+  margin: 0;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bottons button{
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 27px;
+  outline: none;
+}
+
+
+.search-bar input{
+  box-sizing: content-box;
+  padding-left: 15px;
+  width: 632px; height: 40px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border: none;
+  border-radius: 2px;
+  line-height: 40px;
+  font: 16px arial,sans-serif;
+  outline: none;
+  background-image: url("pics/microphone.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 25px;
+}
+
+.bottons button:hover{
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+footer li:hover{
+  text-decoration: underline;
+}
